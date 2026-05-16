@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 118" role="img" aria-labelledby="title desc">
+  <title id="title">Le Tomona</title>
+  <desc id="desc">ル・トモナのテキストロゴ。小さなパイの線画を添えています。</desc>
+  <defs>
+    <linearGradient id="logoRose" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#c8948d"/>
+      <stop offset="1" stop-color="#6a473b"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" stroke="#6a473b" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M50 26c22 0 38 15 38 34S72 94 50 94 12 79 12 60 28 26 50 26Z" fill="#fff7ed" stroke-width="2"/>
+    <path d="M23 58c13-7 39-7 54 0" stroke-width="2"/>
+    <path d="M28 48c12 5 31 5 44 0" stroke-width="1.6" opacity=".72"/>
+    <path d="M31 69c11 5 28 5 39 0" stroke-width="1.6" opacity=".72"/>
+    <path d="M45 34c-4 12-4 39 0 52M56 34c4 12 4 39 0 52" stroke-width="1.25" opacity=".55"/>
+  </g>
+  <text x="112" y="56" fill="url(#logoRose)" font-family="Cormorant Garamond, Times New Roman, serif" font-size="46" font-weight="500" letter-spacing="3">Le Tomona</text>
+  <text x="116" y="86" fill="#6a473b" font-family="Yu Mincho, Hiragino Mincho ProN, serif" font-size="15" letter-spacing="5">ル・トモナ</text>
+  <path d="M116 98H344" stroke="#d2aaa2" stroke-width="1"/>
+  <text x="351" y="102" fill="#b97e76" font-family="Cormorant Garamond, Times New Roman, serif" font-size="14" letter-spacing="2">Pies &amp; Flans</text>
+</svg>
