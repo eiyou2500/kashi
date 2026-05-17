@@ -22,9 +22,10 @@
   --radius-md: 24px;
   --radius-sm: 15px;
   --max: 1160px;
-  --serif: "Cormorant Garamond", "Times New Roman", "Yu Mincho", "YuMincho", "Hiragino Mincho ProN", serif;
-  --jp: "Noto Serif JP", "Yu Mincho", "YuMincho", "Hiragino Mincho ProN", serif;
-  --sans: "Noto Sans JP", "Hiragino Sans", "Yu Gothic", system-ui, sans-serif;
+  --serif: "Cormorant Garamond", "Times New Roman", serif;
+  --jp: "Zen Maru Gothic", "Hiragino Maru Gothic ProN", "Yu Gothic", system-ui, sans-serif;
+  --sans: "Zen Maru Gothic", "Hiragino Maru Gothic ProN", "Yu Gothic", system-ui, sans-serif;
+  --cute: "Kiwi Maru", "Zen Maru Gothic", "Hiragino Maru Gothic ProN", serif;
 }
 
 * {
