@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 680" role="img" aria-labelledby="title desc">
+  <title id="title">焼菓子ギフトの写真風ビジュアル</title>
+  <desc id="desc">淡いピンクベージュの包装とリボン、焼菓子の箱をイメージしたビジュアル。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#fffaf2"/><stop offset="0.46" stop-color="#f8eddd"/><stop offset="1" stop-color="#ead1c8"/></linearGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="3" seed="48"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 0.075"/></feComponentTransfer></filter>
+    <filter id="soft"><feGaussianBlur stdDeviation="1.1"/></filter>
+  </defs>
+  <rect width="960" height="680" rx="44" fill="url(#bg)"/>
+  <circle cx="250" cy="150" r="128" fill="#ffffff" opacity="0.48" filter="url(#soft)"/>
+  <ellipse cx="478" cy="502" rx="330" ry="76" fill="#4a2f27" opacity="0.13" filter="url(#soft)"/>
+  <rect x="250" y="240" width="458" height="244" rx="34" fill="#fffaf2" opacity="0.88"/>
+  <rect x="282" y="272" width="394" height="176" rx="22" fill="#ead1c8" opacity="0.44"/>
+  <path d="M250 332h458" stroke="#b97e76" stroke-width="28" opacity="0.32"/>
+  <path d="M478 240v244" stroke="#b97e76" stroke-width="30" opacity="0.28"/>
+  <path d="M462 238c-72-70-150-63-166-16-16 49 78 55 166 16z" fill="#d9a8a1" opacity="0.58"/>
+  <path d="M496 238c74-68 151-60 166-13 15 49-79 52-166 13z" fill="#d9a8a1" opacity="0.58"/>
+  <g opacity="0.64">
+    <circle cx="690" cy="455" r="44" fill="#f3dfbd"/>
+    <circle cx="650" cy="476" r="34" fill="#c9a35e" opacity="0.72"/>
+    <circle cx="724" cy="482" r="30" fill="#b97e76" opacity="0.34"/>
+  </g>
+  <rect x="170" y="430" width="162" height="26" rx="13" fill="#4a2f27" opacity="0.12"/>
+  <rect x="154" y="466" width="230" height="18" rx="9" fill="#b97e76" opacity="0.16"/>
+  <rect width="960" height="680" rx="44" filter="url(#grain)" opacity="0.58"/>
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 680" role="img" aria-labelledby="title desc">
+  <title id="title">Le Tomonaの工房をイメージした写真風ビジュアル</title>
+  <desc id="desc">やわらかな光の中でパイを仕込む木の作業台と焼菓子の道具。</desc>
+  <defs>
+    <linearGradient id="wall" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fffaf2"/>
+      <stop offset="0.5" stop-color="#f8eddd"/>
+      <stop offset="1" stop-color="#ead1c8"/>
+    </linearGradient>
+    <radialGradient id="light" cx="24%" cy="18%" r="70%">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="0.36" stop-color="#fff4df" stop-opacity="0.62"/>
+      <stop offset="1" stop-color="#fff4df" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="1.2"/>
+    </filter>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.82" numOctaves="3" seed="12"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="table" tableValues="0 0.08"/></feComponentTransfer>
+    </filter>
+  </defs>
+  <rect width="960" height="680" rx="44" fill="url(#wall)"/>
+  <rect width="960" height="680" rx="44" fill="url(#light)"/>
+  <rect x="62" y="402" width="836" height="178" rx="32" fill="#8a5a45" opacity="0.22"/>
+  <path d="M74 430c108-28 245-26 386-18 162 10 279-22 423 14v151H74z" fill="#b97e76" opacity="0.26"/>
+  <ellipse cx="472" cy="406" rx="242" ry="64" fill="#fffaf2" opacity="0.72"/>
+  <ellipse cx="472" cy="398" rx="207" ry="50" fill="#f3dfbd" opacity="0.78"/>
+  <path d="M302 376c88-56 241-62 349-5 41 22 38 62-7 81-90 38-256 35-337-9-42-23-45-45-5-67z" fill="#c9a35e" opacity="0.72"/>
+  <path d="M342 378c80-28 196-34 279 5" fill="none" stroke="#7c4d3c" stroke-width="14" stroke-linecap="round" opacity="0.24"/>
+  <g filter="url(#soft)" opacity="0.76">
+    <rect x="142" y="140" width="150" height="214" rx="22" fill="#fffaf2" opacity="0.74"/>
+    <rect x="170" y="166" width="94" height="154" rx="16" fill="#ead1c8" opacity="0.72"/>
+    <path d="M695 145h80v256h-80z" fill="#6a473b" opacity="0.28"/>
+    <path d="M720 130c64 45 98 112 98 201 0 37-6 71-18 101" fill="none" stroke="#4a2f27" stroke-width="15" opacity="0.16"/>
+  </g>
+  <g opacity="0.76">
+    <circle cx="727" cy="438" r="48" fill="#fffaf2" opacity="0.64"/>
+    <circle cx="727" cy="438" r="33" fill="#d9a8a1" opacity="0.32"/>
+    <rect x="170" y="482" width="170" height="34" rx="17" fill="#fffaf2" opacity="0.58"/>
+    <rect x="620" y="500" width="160" height="20" rx="10" fill="#4a2f27" opacity="0.16"/>
+  </g>
+  <rect width="960" height="680" rx="44" filter="url(#grain)" opacity="0.55"/>
+</svg>
